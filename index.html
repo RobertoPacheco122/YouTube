@@ -5,41 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/cabecalho.css">
 </head>
 <body class="grid--container">
-    <header class="cabecalho">
-        <div class="cabecalho__menu"> 
-            <div class="cabecalho__barra"></div>
-            <div class="cabecalho__barra"></div>
-            <div class="cabecalho__barra"></div>
+    <header class="cabecalho container">
+
+        <div class="cabecalho--container__inicio">
+            <div class="cabecalho__menu"> 
+                <div class="cabecalho__barra"></div>
+                <div class="cabecalho__barra"></div>
+                <div class="cabecalho__barra"></div>
+            </div>
+    
+            <div class="cabecalho--container__logo">
+                <img src="./assets/img/cabecalho/youtube.png" class="cabecalho__logo" alt="Logo do YouTube">
+                <p class="cabecalho__texto--logo">YouTube</p>
+            </div>
         </div>
 
-        <div class="cabecalho--container">
-            <img src="./assets/img/cabecalho/youtube.png" class="cabecalho__logo" alt="Logo do YouTube">
-            <p class="cabecalho__texto">YouTube</p>
+        <div class="cabecalho--container--form">
+            <div class="cabecalho--container__busca">
+                <form class="cabecalho__form">
+                    <input type="text" class="cabecalho__input" placeholder="Pesquisar">
+                    <button type="submit" class="cabecalho__botao">
+                        <div class="cabecalho__icone cabecalho__icone--lupa"></div>
+                    </button>
+                </form>
+            </div>
+            <div class="cabecalho--container__microfone">
+                <div class="cabecalho__icone cabecalho__icone--microfone"></div>
+            </div>
         </div>
-
-        <div class="cabecalho--container">
-            <form class="cabecalho__form">
-                <input type="text" class="cabecalho__input" placeholder="Pesquisar">
-                <button class="cabecalho__botao"></button>
-            </form>
-
-            <div class="cabecalho__icone cabecalho__icone--microfone"></div>
-        </div>
-
-        <div class="cabecalho--container">
+        
+        
+        <div class="cabecalho--container__icones">
             <div class="cabecalho__icone cabecalho__icone--criar"></div>
             <div class="cabecalho__icone cabecalho__icone--apps"></div>
             <div class="cabecalho__icone cabecalho__icone--notificacoes"></div>
+
+            <div class="cabecalho--container__usuario">
+                <div class="cabecalho__img--usuario"></div>
+            </div>
         </div>
 
-        <div class="cabecalho--container">
-            <div class="cabecalho__img cabecalho__img--usuario"></div>
-        </div>
     </header>
 </body>
 </html>
