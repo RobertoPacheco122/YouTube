@@ -1,0 +1,13 @@
+:root {
+    --fonte-padrao: 'Montserrat', 'sans-serif';
+    --branco: #FFFFFF;
+    --cor-cabecalho-bg: #212121;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+}
+
+.container {
+    padding: 0 2%;
+}
