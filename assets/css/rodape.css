@@ -1,0 +1,27 @@
+.rodape {
+    padding: 0 1rem;
+    font-size: .8rem;
+}
+
+.rodape--container {
+    margin: 1rem 0;
+}
+
+.rodape__lista {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rodape__item {
+    margin-right: .8rem;
+}
+
+.rodape__link {
+    text-decoration: none;
+    color: #ddd9d9;
+    line-height: 1rem;
+}
+
+.rodape__texto {
+    color: #afacac;
+}
