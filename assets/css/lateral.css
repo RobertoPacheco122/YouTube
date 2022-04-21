@@ -1,0 +1,154 @@
+.lateral {
+    grid-area: aside;
+    background-color: var(--cor-aside-bg);
+    font-size: .8rem;
+}
+
+.lateral--container__conteudo {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.lateral__item:hover {
+    background-color: #3a3939;
+}
+
+.lateral__link {
+    text-decoration: none;
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+}
+
+.lateral--container__inicio, .lateral--container__meio, .lateral--container__inscricoes, .lateral--container__mais, .lateral--container__fim {
+    border-bottom: 1px solid #3a3939;
+}
+
+.lateral__icone {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin: .8rem 1.5rem;
+}
+
+.lateral__titulo {
+    color: #afacac;
+    text-transform: uppercase;
+    font-size: .9rem;
+    padding: 1rem;
+}
+
+.lateral__texto {
+    flex-grow: 1;
+}
+
+.lateral__icone--criadores {
+    height: 28px;
+    width: 28px;
+    border-radius: 100%;
+}
+
+.lateral__icone--inicio {
+    background-image: url("../img/aside/icones/home-free-icon-font.png");
+}
+
+.lateral__icone--explorar {
+    background-image: url("../img/aside/icones/bussola.png");
+}
+
+.lateral__icone--shorts {
+    background-image: url("../img/aside/icones/botao-play.png");
+}
+
+.lateral__icone--inscricoes {
+    background-image: url("../img/aside/icones/video-player.png");
+}
+
+.lateral__icone--biblioteca {
+    background-image: url("../img/aside/icones/biblioteca.png");
+}
+
+.lateral__icone--historico {
+    background-image: url("../img/aside/icones/historico.png");
+}
+
+.lateral__icone--videos {
+    background-image: url("../img/aside/icones/play-alt-free-icon-font.png");
+}
+
+.lateral__icone--tarde {
+    background-image: url("../img/aside/icones/relogio.png");
+}
+
+.lateral__icone--clipes {
+    background-image: url("../img/aside/icones/tesouras.png");
+}
+
+.lateral__icone--mais {
+    background-image: url("../img/aside/icones/angle-down-free-icon-font.png");
+}
+
+.lateral__icone--edu {
+    background-image: url("../img/aside/usuarios/BRKsEDU.jpg");
+}
+
+.lateral__icone--akita {
+    background-image: url("../img/aside/usuarios/FabioAkita.jpg");
+}
+
+.lateral__icone--lima {
+    background-image: url("../img/aside/usuarios/FabioLima.jpg");
+}
+
+.lateral__icone--funky {
+    background-image: url("../img/aside/usuarios/Funky.jpg");
+}
+
+.lateral__icone--away {
+    background-image: url("../img/aside/usuarios/Away.jpg");
+}
+
+.lateral__icone--premium {
+    background-image: url("../img/aside/icones/youtube.svg");
+}
+
+.lateral__icone--filmes {
+    background-image: url("../img/aside/icones/filme.svg");
+}
+
+.lateral__icone--jogos {
+    background-image: url("../img/aside/icones/jogos.svg");
+}
+
+.lateral__icone--live {
+    background-image: url("../img/aside/icones/filme.svg");
+}
+
+.lateral__icone--aprender {
+    background-image: url("../img/aside/icones/aprender.svg");
+}
+
+.lateral__icone--esportes {
+    background-image: url("../img/aside/icones/esportes.svg");
+}
+
+.lateral__icone--configuracoes {
+    background-image: url("../img/aside/icones/configuracoes.svg");
+}
+
+.lateral__icone--denuncias {
+    background-image: url("../img/aside/icones/denuncias.svg");
+}
+
+.lateral__icone--ajuda {
+    background-image: url("../img/aside/icones/ajuda.svg");
+}
+
+.lateral__icone--feedback {
+    background-image: url("../img/aside/icones/feedback.svg");
+}
