@@ -2,10 +2,24 @@
     --fonte-padrao: 'Montserrat', 'sans-serif';
     --branco: #FFFFFF;
     --cor-cabecalho-bg: #212121;
+    --cor-aside-bg: #242323;
+    --cor-main-bg: #161616;
 }
 
 body {
     font-family: var(--fonte-padrao);
+    color: var(--branco);
+}
+
+.grid--body {
+    display: grid;
+    grid-template-columns: .65fr 3fr;
+    grid-template-rows: 1fr calc(100vh - 60px);
+
+    grid-template-areas:
+    "header header"
+    "aside main"
+    ;
 }
 
 .container {
