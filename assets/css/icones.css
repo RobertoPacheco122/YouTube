@@ -1,3 +1,22 @@
+.icone--lupa {
+    background-image: url("../img/cabecalho/icones/lupa-arredondada.png");
+}
+
+.icone--microfone {
+    background-image: url("../img/cabecalho/icones/microfone-gravador.png");
+}
+
+.icone--criar {
+    background-image: url("../img/cabecalho/icones/video-camera.png");
+}
+
+.icone--apps {
+    background-image: url("../img/cabecalho/icones/app.png");
+}
+
+.icone--notificacoes {
+    background-image: url("../img/cabecalho/icones/notificacao.png");
+}
 
 .icone--inicio {
     background-image: url("../img/aside/icones/inicio.svg");
@@ -12,7 +31,7 @@
 }
 
 .icone--inscricoes {
-    background-image: url("../img/aside/icones/video-player.png");
+    background-image: url("../img/aside/icones/inscricoes.png");
 }
 
 .icone--biblioteca {
@@ -72,7 +91,7 @@
 }
 
 .icone--live {
-    background-image: url("../img/aside/icones/filme.svg");
+    background-image: url("../img/aside/icones/live.png");
 }
 
 .icone--aprender {
