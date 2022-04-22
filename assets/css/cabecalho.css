@@ -92,29 +92,15 @@
     cursor: pointer;
 }
 
-.cabecalho__icone--lupa {
-    background-image: url("../img/cabecalho/icones/lupa-arredondada.png");
+.cabecalho__icone--lupa {   
     display: inline-block;
     margin-right: 0;
     margin-top: 4px;
 }
 
 .cabecalho__icone--microfone {
-    background-image: url("../img/cabecalho/icones/microfone-gravador.png");
     margin-left: 1rem;
     margin-right: 0;
-}
-
-.cabecalho__icone--criar {
-    background-image: url("../img/cabecalho/icones/video-camera.png");
-}
-
-.cabecalho__icone--apps {
-    background-image: url("../img/cabecalho/icones/app.png");
-}
-
-.cabecalho__icone--notificacoes {
-    background-image: url("../img/cabecalho/icones/notificacao.png");
 }
 
 .cabecalho__img--usuario {
