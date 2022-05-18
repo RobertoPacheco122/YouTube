@@ -11,6 +11,10 @@ body {
     color: var(--branco);
 }
 
+.container {
+    padding: 0 2%;
+}
+
 .grid--body {
     display: grid;
     grid-template-columns: .65fr 3fr;
@@ -22,6 +26,9 @@ body {
     ;
 }
 
-.container {
-    padding: 0 2%;
+.grid--main {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .35fr 1fr 1fr 1fr;
 }
