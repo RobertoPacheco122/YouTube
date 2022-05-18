@@ -1,0 +1,37 @@
+.topicos {
+  border-top: 1px solid #3a3939;
+  background-color: var(--cor-cabecalho-bg);
+  grid-row: 1 / 1;
+  grid-column: 1 / 5;
+  width: 100%;
+}
+
+.topicos__lista {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 1rem;
+  overflow-x: auto;
+}
+
+.topicos__item {
+  border: 1px solid #707070;
+  border-radius: 20px;
+  background-color: #3a3939;
+  padding: 0.5rem;
+  margin: 10px 5px;
+}
+
+.topicos__item:hover {
+  cursor: pointer;
+}
+
+.topicos__item:first-child {
+  background-color: var(--branco);
+  color: #000000;
+}
+
+.topicos__texto {
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
