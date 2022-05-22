@@ -1,7 +1,7 @@
 .lateral {
     grid-area: aside;
     background-color: var(--cor-aside-bg);
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 .lateral--container__conteudo {
