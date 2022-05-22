@@ -1,5 +1,5 @@
 :root {
-    --fonte-padrao: 'Montserrat', 'sans-serif';
+    --fonte-padrao: 'Roboto', 'sans-serif';
     --branco: #FFFFFF;
     --cor-cabecalho-bg: #212121;
     --cor-aside-bg: #242323;
@@ -29,6 +29,6 @@ body {
 .grid--main {
     display: grid;
 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .35fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: .35fr 1fr;
 }
